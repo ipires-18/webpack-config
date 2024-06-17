@@ -1,0 +1,17 @@
+{
+  "name": "webpack-config-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build":"webpack"
+  },
+  "dependencies": {
+    "webpack": "^5.92.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.5"
+  }
+}
