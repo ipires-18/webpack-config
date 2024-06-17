@@ -59,3 +59,10 @@ no arquivo webpack.config.js.
 - O webpack roda em cima do Node.js 10.13+.
 - o navegador precisa suportar pelo menos todos os recursos de ES5, versão do javascript.
 - Há maneiras de rodar o webpack em navegadores mais antigos, utilizando polyfills.
+
+## Module Federation 
+
+- Uma funcionalidade do webpack para criar múltiplas aplicações em um projeto.
+- A ideia é que elas não tenham dependências compartilhadas entre si.
+- Podemos simular a arquitetura de micro-frontend com este recurso.
+- Conseguimos desenvolver várias aplicações distintas que são coordenadas por uma build.
