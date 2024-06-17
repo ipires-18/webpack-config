@@ -80,6 +80,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/files/frase.txt":
+/*!*****************************!*\
+  !*** ./src/files/frase.txt ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"O PODER DO webpack!!!\");\n\n//# sourceURL=webpack://webpack-config-loaders/./src/files/frase.txt?");
+
+/***/ }),
+
 /***/ "./src/components/button.scss":
 /*!************************************!*\
   !*** ./src/components/button.scss ***!
@@ -206,7 +216,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_title__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/title */ \"./src/components/title.js\");\n/* harmony import */ var _components_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/image */ \"./src/components/image.js\");\n/* harmony import */ var _components_button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/button */ \"./src/components/button.js\");\n/* harmony import */ var _templates_warning_html__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./templates/warning.html */ \"./src/templates/warning.html\");\n/* harmony import */ var _styles_warning_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles/warning.css */ \"./src/styles/warning.css\");\n\n\n\n\n\n\n\nconst title = new _components_title__WEBPACK_IMPORTED_MODULE_0__[\"default\"]();\n\nconst tabela = new _components_image__WEBPACK_IMPORTED_MODULE_1__[\"default\"]();\n\nconst button = new _components_button__WEBPACK_IMPORTED_MODULE_2__[\"default\"]();\n\ntitle.create('Primeira página');\n\ntabela.insertImage();\n\nbutton.create();\n\nconst body = document.querySelector('body');\nbody.innerHTML += _templates_warning_html__WEBPACK_IMPORTED_MODULE_3__[\"default\"];\n\n\n//# sourceURL=webpack://webpack-config-loaders/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_title__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/title */ \"./src/components/title.js\");\n/* harmony import */ var _components_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/image */ \"./src/components/image.js\");\n/* harmony import */ var _components_button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/button */ \"./src/components/button.js\");\n/* harmony import */ var _templates_warning_html__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./templates/warning.html */ \"./src/templates/warning.html\");\n/* harmony import */ var _files_frase_txt__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./files/frase.txt */ \"./src/files/frase.txt\");\n/* harmony import */ var _styles_warning_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles/warning.css */ \"./src/styles/warning.css\");\n\n\n\n\n\n\n\n\nconst title = new _components_title__WEBPACK_IMPORTED_MODULE_0__[\"default\"]();\n\nconst tabela = new _components_image__WEBPACK_IMPORTED_MODULE_1__[\"default\"]();\n\nconst button = new _components_button__WEBPACK_IMPORTED_MODULE_2__[\"default\"]();\n\ntitle.create('Primeira página');\n\ntabela.insertImage();\n\nbutton.create();\n\nconst body = document.querySelector('body');\nbody.innerHTML += _templates_warning_html__WEBPACK_IMPORTED_MODULE_3__[\"default\"];\n\nconst frase = _files_frase_txt__WEBPACK_IMPORTED_MODULE_4__[\"default\"];\n\nconsole.log(frase);\n\nconsole.log(frase.toUpperCase());\n\n\n//# sourceURL=webpack://webpack-config-loaders/./src/index.js?");
 
 /***/ })
 

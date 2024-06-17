@@ -2,6 +2,7 @@ import Title from './components/title';
 import Tabela from './components/image';
 import Button from './components/button';
 import Warning from './templates/warning.html';
+import fraseTxt from './files/frase.txt';
 
 import './styles/warning.css';
 
@@ -19,3 +20,9 @@ button.create();
 
 const body = document.querySelector('body');
 body.innerHTML += Warning;
+
+const frase = fraseTxt;
+
+console.log(frase);
+
+console.log(frase.toUpperCase());
