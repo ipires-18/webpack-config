@@ -3,10 +3,20 @@ const webpack = require('webpack');
 
 module.exports = {
   mode: 'development',
-  entry: './src/index.js',
+  entry: {
+    index: {
+      import: './src/index.js',
+      dependOn: 'shared',
+    },
+    test: {
+      import: './src/array.js',
+      dependOn: 'shared',
+    },
+    shared: 'lodash',
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
+    filename: '[name].js',
   },
   plugins: [
     new webpack.ProvidePlugin({
